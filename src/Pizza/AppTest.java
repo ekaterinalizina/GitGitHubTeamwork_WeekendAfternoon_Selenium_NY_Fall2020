@@ -38,6 +38,10 @@ public class AppTest {
         System.out.println("Empty  constructor no parameters  ");
     }
 
+    public static void testClass() {
+        System.out.println("testClass method ");
+    }
+
     public static void display() {
         System.out.println("display method");
     }
