@@ -3,7 +3,6 @@ package cars;
 public class Bmw {
 
     public static
-
     // Create 4 variables
     // 2 or 3 Constructors
     // 2 or 3 Methods
