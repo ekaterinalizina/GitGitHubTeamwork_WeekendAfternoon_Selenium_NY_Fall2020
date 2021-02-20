@@ -38,6 +38,10 @@ public class AppTest {
         System.out.println("Empty  constructor no parameters  ");
     }
 
+    public static void testClass(){
+        System.out.println("testClass method ");
+    }
+
     public static String computer(String model) {
         System.out.println("computer  with 1 parameters , your model is " + model);
         return model;
