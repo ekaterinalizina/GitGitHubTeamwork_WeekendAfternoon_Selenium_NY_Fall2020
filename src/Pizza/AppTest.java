@@ -38,8 +38,12 @@ public class AppTest {
         System.out.println("Empty  constructor no parameters  ");
     }
 
-    public static void testClass(){
+    public static void testClass() {
         System.out.println("testClass method ");
+    }
+
+    public static void display() {
+        System.out.println("display method");
     }
 
     public static String computer(String model) {
