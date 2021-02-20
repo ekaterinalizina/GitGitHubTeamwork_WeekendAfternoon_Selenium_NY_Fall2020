@@ -20,4 +20,11 @@ public class TestCarApp {
         Assert.assertEquals("Test Fail", expectedResult, actualResult);
     }
 
+    @Test
+    public void testRadioOn() {
+        String expectedResult = "Car radio turned on";
+        String actualResult = Bmw.RadioOn();
+        Assert.assertEquals("Test Fail", expectedResult, actualResult);
+    }
+
 }

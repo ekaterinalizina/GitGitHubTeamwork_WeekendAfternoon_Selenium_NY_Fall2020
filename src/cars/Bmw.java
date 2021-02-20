@@ -38,4 +38,9 @@ public class Bmw {
         return carAccelerates;
     }
 
+    public static String RadioOn() {
+        String radioOn = "Car radio turned on";
+        return radioOn;
+    }
+
 }
