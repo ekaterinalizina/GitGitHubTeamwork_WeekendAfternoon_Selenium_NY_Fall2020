@@ -18,7 +18,7 @@ public class TestPizzaApp {
         AppTest test2=new AppTest(var,val);
         AppTest test3=new AppTest(var,val,cmodel,vendor);
 
-        AppTest.compter(cmodel);
+        AppTest.computer(cmodel);
         AppTest.laptop(lmodel,lver);
         AppTest.phone(pmodel);
 
