@@ -5,10 +5,10 @@ public class AppTest {
     // 2 or 3 constructor
     // 2 or 3 Create methods
 
-int var;
-int val;
-String vendor;
-String model;
+    int var;
+    int val;
+    String vendor;
+    String model;
 
     public AppTest(int var, int val, String vendor, String model) {
         this.var = var;
@@ -18,7 +18,6 @@ String model;
         System.out.println("AppTest constructor with 4 parameters ");
     }
 
-
     public AppTest(int var, int val) {
         this.var = var;
         this.val = val;
@@ -26,7 +25,6 @@ String model;
         this.model = model;
         System.out.println("AppTest constructor with 2 parameters ");
     }
-
 
     public AppTest(int var) {
         this.var = var;
@@ -38,21 +36,20 @@ String model;
 
     public AppTest() {
         System.out.println("Empty  constructor no parameters  ");
-
     }
 
-    public static String  compter (String model){
-        System.out.println("computer  with 1 parameters , your model is " +model);
-        return model;
-    }
-    public static String  laptop (String model ,int version  ){
-        System.out.println("laptop with 2 parameters "+model + "Version "+version);
-
+    public static String compter(String model) {
+        System.out.println("computer  with 1 parameters , your model is " + model);
         return model;
     }
 
-    public static String  phone (String model ){
-        System.out.println("phone with 1 parameters " +model);
+    public static String laptop(String model, int version) {
+        System.out.println("laptop with 2 parameters " + model + "Version " + version);
+        return model;
+    }
+
+    public static String phone(String model) {
+        System.out.println("phone with 1 parameters " + model);
         return model;
     }
 }
